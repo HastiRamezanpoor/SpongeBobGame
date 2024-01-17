@@ -10,6 +10,7 @@ public class Gun : MonoBehaviour
      public Camera fbsCam;
      public AudioSource shootSound;
      public GameObject muzzleEffect;
+     public GameObject BloodEffect;
     
 
 
@@ -43,6 +44,7 @@ private void Start()
             if(target!=null)
             {
                 target.TakeDamage(damage);
+                Instantiate(BloodEffect,hit.point,Quaternion.identity);
                
               
 
