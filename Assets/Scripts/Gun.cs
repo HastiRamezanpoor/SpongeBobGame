@@ -10,6 +10,7 @@ public class Gun : MonoBehaviour
      public Camera fbsCam;
      public AudioSource shootSound;
      public GameObject muzzleEffect;
+    
 
 
 private void Start()
@@ -42,6 +43,8 @@ private void Start()
             if(target!=null)
             {
                 target.TakeDamage(damage);
+               
+              
 
             }
         }

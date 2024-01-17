@@ -13,6 +13,7 @@ public class PlayerHealth : MonoBehaviour
     public Image frontHealthBar;
     public Image backHealthBar;
     public AudioSource hurtSound;
+    public GameObject back;
 
 
     void Start()
@@ -61,7 +62,9 @@ public class PlayerHealth : MonoBehaviour
     }
      void GameOver()
         {
+            
             SceneManager.LoadScene(2);
+            
         }
     
 
