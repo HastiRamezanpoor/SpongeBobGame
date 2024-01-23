@@ -98,6 +98,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerController
       objectReference: {fileID: 0}
+    - target: {fileID: 2788241584302802990, guid: 6b1b59d726727674f8e303653b26ccd1, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2788241584302802990, guid: 6b1b59d726727674f8e303653b26ccd1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2788241584302802990, guid: 6b1b59d726727674f8e303653b26ccd1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 2788241584302802990, guid: 6b1b59d726727674f8e303653b26ccd1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4037628146370926531, guid: 6b1b59d726727674f8e303653b26ccd1, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4037628146370926531, guid: 6b1b59d726727674f8e303653b26ccd1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7486699750331775537, guid: 6b1b59d726727674f8e303653b26ccd1, type: 3}
+      propertyPath: m_fontSize
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 7486699750331775537, guid: 6b1b59d726727674f8e303653b26ccd1, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 8572056906129781641, guid: 6b1b59d726727674f8e303653b26ccd1, type: 3}
       propertyPath: m_Constraints
       value: 112
